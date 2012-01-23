@@ -10,10 +10,11 @@ extern "C" void OSAction() {
     [[objc_getClass("SBWiFiManager") sharedInstance] setWiFiEnabled:![[objc_getClass("SBWiFiManager") sharedInstance] wiFiEnabled]];
 }
 
+extern "C" void OSActionString(NSString *actionString) {
+    OSAction();
+}
+
 int main(int argc, char **argv, char **envp) {
 	return 0;
 }
 
-
-
-// vim:ft=objc

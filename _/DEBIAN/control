@@ -1,7 +1,7 @@
 Package: com.appuplink.opensiriplugin
 Name: opensiriplugin
 Depends: com.appuplink.opensiri
-Version: 0.0.1-4
+Version: 0.0.1-6
 Architecture: iphoneos-arm
 Description: An awesome library of some sort!!
 Maintainer: Freddy Kellison-Linn
